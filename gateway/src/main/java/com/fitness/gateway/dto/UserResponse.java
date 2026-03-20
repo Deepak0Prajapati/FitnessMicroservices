@@ -1,11 +1,10 @@
-package com.fitness.userService.dto;
+package com.fitness.gateway.dto;
 import lombok.Builder;
 import lombok.Data;
 
 import java.time.LocalDateTime;
 
 @Data
-@Builder
 public class UserResponse {
     private String Id;
     private String keycloakId;
